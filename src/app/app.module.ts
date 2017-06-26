@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { HeroeFilteredComponent } from './components/heroe-filtered/heroe-filtered.component';
 
 
 
@@ -22,7 +23,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroeFilteredComponent
   ],
   imports: [
     BrowserModule,
